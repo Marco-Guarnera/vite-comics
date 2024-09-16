@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 button {
     cursor: pointer;
 }
@@ -29,7 +33,7 @@ ul {
 /* Wrapper */
 .wrapper {
     margin: 0 auto;
-    max-width: 1080px;
+    max-width: 1250px;
 }
 
 /* Flexbox */
