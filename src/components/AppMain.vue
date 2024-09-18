@@ -1,22 +1,24 @@
-<script></script>
+<script>
+import ComicsList from "./ComicsList.vue";
+
+export default {
+    components: {
+        ComicsList
+    }
+}
+</script>
 
 <template>
+    <!-- Main -->
     <main>
         <div class="wrapper">
-            <h2>Content</h2>
+            <ComicsList />
         </div>
     </main>
 </template>
 
 <style lang="scss" scoped>
 main {
-    min-height: 125px;
-    background-color: #000;
-
-    h2 {
-        color: #FFF;
-        line-height: 125px;
-        text-align: center;
-    }
+    background-color: #1C1C1C;
 }
 </style>
